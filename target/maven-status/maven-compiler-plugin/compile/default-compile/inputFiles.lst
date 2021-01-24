@@ -1,5 +1,9 @@
-C:\Users\user\Desktop\CRUD_Hotel\src\main\java\hibernate\utils\HibernateSessionFactory.java
+C:\Users\user\Desktop\CRUD_Hotel\src\main\java\lab\model\User.java
 C:\Users\user\Desktop\CRUD_Hotel\src\main\java\hibernate\dao\JournalsEntity.java
+C:\Users\user\Desktop\CRUD_Hotel\src\main\java\lab\dao\UserDao.java
+C:\Users\user\Desktop\CRUD_Hotel\src\main\java\lab\dao\impl\UserDaoImpl.java
 C:\Users\user\Desktop\CRUD_Hotel\src\main\java\hibernate\dao\ClientsEntity.java
-C:\Users\user\Desktop\CRUD_Hotel\src\main\java\main\AppMain.java
+C:\Users\user\Desktop\CRUD_Hotel\src\main\java\lab\controller\UserController.java
 C:\Users\user\Desktop\CRUD_Hotel\src\main\java\hibernate\dao\RoomsEntity.java
+C:\Users\user\Desktop\CRUD_Hotel\src\main\java\lab\service\impl\UserServiceImpl.java
+C:\Users\user\Desktop\CRUD_Hotel\src\main\java\lab\service\UserService.java

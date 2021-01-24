@@ -1,0 +1,9 @@
+lab\controller\UserController.class
+hibernate\dao\ClientsEntity.class
+hibernate\dao\RoomsEntity.class
+lab\dao\UserDao.class
+lab\model\User.class
+lab\service\impl\UserServiceImpl.class
+hibernate\dao\JournalsEntity.class
+lab\service\UserService.class
+lab\dao\impl\UserDaoImpl.class
