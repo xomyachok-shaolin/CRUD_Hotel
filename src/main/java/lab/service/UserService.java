@@ -9,17 +9,17 @@ public interface UserService {
 	/*
 	 * CREATE and UPDATE 
 	 */
-	public void saveUser(User user);
+	void saveUser(User user);
 
 	/*
 	 * READ
 	 */
-	public List<User> listUsers();
-	public User getUser(Long id);
+	List<User> listUsers();
+	User getUser(Long id);
 
 	/*
 	 * DELETE
 	 */
-	public void deleteUser(Long id);
+	void deleteUser(Long id);
 
 }

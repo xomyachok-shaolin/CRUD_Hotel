@@ -36,8 +36,8 @@ th {
                                           height: auto;
                                           background-size: cover;">
 			<div id="navbar">
-				<a href="{{route('ajaxjournals.index')}}">Журнал регистрации гостей</a>
-				<a href="{{route('ajaxrooms.index')}}">Номера</a>
+				<a href="/journal/listJournals">Журнал регистрации гостей</a>
+				<a href="/room/listRooms">Номера</a>
 				<a class="active" href="/user/listUsers">Клиенты</a>
 			</div>
 

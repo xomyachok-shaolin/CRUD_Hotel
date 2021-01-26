@@ -1,7 +1,10 @@
 package lab.model;
 
+import hibernate.dao.JournalsEntity;
+
 import javax.persistence.*;
 import java.sql.Timestamp;
+import java.util.Collection;
 
 @Entity
 @Table(name = "clients")
@@ -14,7 +17,7 @@ public class User {
 	private String mail;
 	private Timestamp createdAt;
 	private Timestamp updatedAt;
-	//private Collection<JournalsEntity> journalsById;
+	private Collection<Journal> journalsById;
 
 	@Id
 	@Column(name = "id", nullable = false)
@@ -128,13 +131,13 @@ public class User {
 		result = 31 * result + (updatedAt != null ? updatedAt.hashCode() : 0);
 		return result;
 	}
-/*
-	@OneToMany(mappedBy = "clientsByClientId")
-	public Collection<JournalsEntity> getJournalsById() {
+
+	@OneToMany(mappedBy = "usersByUserId")
+	public Collection<Journal> getJournalsById() {
 		return journalsById;
 	}
 
-	public void setJournalsById(Collection<JournalsEntity> journalsById) {
+	public void setJournalsById(Collection<Journal> journalsById) {
 		this.journalsById = journalsById;
-	}*/
+	}
 }

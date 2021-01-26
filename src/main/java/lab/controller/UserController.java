@@ -1,6 +1,7 @@
 package lab.controller;
 
 import lab.model.User;
+import lab.service.RoomService;
 import lab.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
