@@ -117,7 +117,7 @@ public class Room {
 		return result;
 	}
 
-	@OneToMany(mappedBy = "roomsByRoomId")
+	@OneToMany(targetEntity = Journal.class, cascade = CascadeType.ALL)
 	public Collection<Journal> getJournalsById() {
 		return journalsById;
 	}

@@ -27,7 +27,7 @@
         <label for="comfortable" class="col-xs-4 control-label">Comfortable</label>
         <div class="col-xs-8">
 			<select class="browser-default custom-select form-control" id="comfortable" name="comfortable" value="" maxlength="50" required="">
-				<option selected>Enter comfortable</option>
+				<option selected >Enter comfortable</option>
 				<option value="Обычный">Обычный</option>
 				<option value="Полулюкс">Полулюкс</option>
 				<option value="Люкс">Люкс</option>

@@ -132,7 +132,7 @@ public class User {
 		return result;
 	}
 
-	@OneToMany(mappedBy = "usersByUserId")
+	@OneToMany(targetEntity = Journal.class, cascade = CascadeType.ALL)
 	public Collection<Journal> getJournalsById() {
 		return journalsById;
 	}

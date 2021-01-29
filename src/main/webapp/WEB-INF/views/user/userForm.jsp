@@ -28,6 +28,7 @@
         <div class="col-xs-8">
             <form:input name="lastname" path="lastname" placeholder="Lastname"
                         class="form-control" />
+
         </div>
     </div>
 

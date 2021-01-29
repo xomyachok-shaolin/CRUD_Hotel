@@ -1,8 +1,7 @@
 package lab.controller;
 
 import lab.model.Journal;
-import lab.model.Room;
-import lab.model.User;
+
 import lab.service.JournalService;
 import lab.service.RoomService;
 import lab.service.UserService;
@@ -14,7 +13,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import java.util.List;
 import java.util.Map;
 
 @Controller

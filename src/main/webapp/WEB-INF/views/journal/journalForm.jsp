@@ -16,22 +16,22 @@
     </div>
 
 	<div class="form-group">
-		<label for="roomsByRoomId" class="col-xs-4 control-label">Room</label>
+		<label class="col-xs-4 control-label">Room</label>
 		<div class="col-xs-8">
-			<form:select path="roomsByRoomId" class="form-control" >
-                <option value="0">--Select--</option>
-				<form:options itemValue="id" itemLabel="number" items="${rooms}" />
+			<form:select path="roomsByRoomId.id" class="form-control" >
+				<form:option value="">Нет комнаты</form:option>
+				<form:options items="${rooms}" itemValue="id" itemLabel="number" />
 			</form:select>
 		</div>
 
 	</div>
 
     <div class="form-group">
-		<label for="usersByUserId" class="col-xs-4 control-label">Client</label>
+		<label class="col-xs-4 control-label">Client</label>
 		<div class="col-xs-8">
-			<form:select path="usersByUserId" class="form-control" >
-                <option value="0">--Select--</option>
-				<form:options itemValue="id" itemLabel="mail" items="${users}" />
+			<form:select path="usersByUserId.id" class="form-control" >
+				<form:option value="">Нет клиента</form:option>
+				<form:options items="${users}" itemValue="id" itemLabel="mail" />
 			</form:select>
 		</div>
     </div>

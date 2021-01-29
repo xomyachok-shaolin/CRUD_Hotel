@@ -93,7 +93,7 @@ public class Journal {
 	}
 
 	@ManyToOne
-	@JoinColumn(name = "id", referencedColumnName = "id", nullable = false, insertable = false, updatable = false)
+	@JoinColumn(name = "client_id", referencedColumnName = "id", nullable = false)
 	public User getUsersByUserId() {
 		return usersByUserId;
 	}
@@ -103,7 +103,7 @@ public class Journal {
 	}
 
 	@ManyToOne
-	@JoinColumn(name = "id", referencedColumnName = "id", nullable = false, insertable = false, updatable = false)
+	@JoinColumn(name = "room_id", referencedColumnName = "id", nullable = false)
 	public Room getRoomsByRoomId() {
 		return roomsByRoomId;
 	}
